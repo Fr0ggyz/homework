@@ -2,7 +2,7 @@
 
 int main()
 {
-    /// Var 8
+    /// Variant 8
     /// number 11
     {
         std::cout << " Write number" << std::endl;
