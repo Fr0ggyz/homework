@@ -22,7 +22,7 @@ int main()
         std::cout << " Write n " << std::endl;
         int n;
         std::cin >> n;
-        if (n >> 999) {
+        if (n > 999) {
             int thousands = n / 1000;
             int hundreds = ((n - (n % 100)) / 100) % 10;
             std::cout << " thousands = " << thousands << std::endl;
